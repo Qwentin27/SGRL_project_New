@@ -11,12 +11,17 @@ public class Inventory
         itemList = new List<Item>();
 
         AddItem(new Item { itemType = Item.ItemType.Flyer, amount = 1});
-        Debug.Log(itemList.Count);
+        AddItem(new Item { itemType = Item.ItemType.CartePostale, amount = 1});
+
     }
 
 public void AddItem (Item item)
 {
     itemList.Add(item);
+}
+
+public List<Item> GetItemList() {
+    return itemList;
 }
 }
 
