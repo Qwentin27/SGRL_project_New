@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_Inventory : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class UI_Inventory : MonoBehaviour
    private Transform itemSlotContainer;
    private Transform itemSlotTemplate;
 
-   private void Start() {
+   private void Awake() {
     itemSlotContainer = transform.Find("itemSlotContainer");
     itemSlotTemplate = itemSlotContainer.Find("itemSlotTemplate");
    }
@@ -27,6 +28,8 @@ public class UI_Inventory : MonoBehaviour
         RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
         itemSlotRectTransform.gameObject.SetActive(true);
         itemSlotRectTransform.anchoredPosition = new Vector2 (x*itemSlotCellSize, y*itemSlotCellSize);
+        Image image = itemSlotRectTransform.Find("image").GetComponent<Image>();
+        image.sprite = item.GetSprite();
         x++;
         if (x>4){
             x=0;

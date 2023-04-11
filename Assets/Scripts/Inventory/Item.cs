@@ -12,4 +12,14 @@ public class Item
 
     public ItemType itemType;
     public int amount;
+
+    public Sprite GetSprite()
+    {
+        switch(itemType)
+        {
+            default:
+            case ItemType.Flyer: return ItemAssets.Instance.FlyerSprite;
+            case ItemType.CartePostale: return ItemAssets.Instance.CartePostaleSprite;
+        }
+    }
 }
