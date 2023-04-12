@@ -7,6 +7,7 @@ public class FirstPersonCamera : MonoBehaviour{
 
     private float degree_clamp_neg, degree_clamp_pos;
     public float angular_speed;
+    public MoveV2 playerMove;
 
     void Start(){
         degree_clamp_neg = 270 + degree_clamp;
@@ -33,6 +34,8 @@ public class FirstPersonCamera : MonoBehaviour{
     }*/
 
    void Update(){
+    if(playerMove.gameEnCours == true)
+    {
         if(Input.GetAxis("VerticalCamera") != 0){
             Vector3 vertical_rotation = new Vector3(Input.GetAxis("VerticalCamera") * Time.deltaTime * angular_speed * -1,0,0);
             transform.Rotate( vertical_rotation, Space.Self );
@@ -50,5 +53,6 @@ public class FirstPersonCamera : MonoBehaviour{
             transform.localEulerAngles = new Vector3(degree_clamp_pos, transform.localEulerAngles.y, 0);//Quaternion.Euler(degree_clamp_pos, transform.rotation.y, 0);
         }
     }
+   }
 
 }

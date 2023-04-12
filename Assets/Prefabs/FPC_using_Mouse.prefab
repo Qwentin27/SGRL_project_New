@@ -126,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 0.1
   playerBody: {fileID: 1267316941091108957}
+  playerMove: {fileID: 1512641049175049435}
 --- !u!1 &1267316941091108929
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,6 +206,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   cam: {fileID: 1267316940902867661}
+  PanelUI: {fileID: 0}
+  gameEnCours: 1
 --- !u!114 &1334016697681275086
 MonoBehaviour:
   m_ObjectHideFlags: 0

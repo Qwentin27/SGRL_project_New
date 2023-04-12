@@ -8,14 +8,20 @@ public class MoveV2 : MonoBehaviour{
     Transform tr;
     [SerializeField] GameObject cam;
 
+    public GameObject PanelUI;
+    public bool gameEnCours = true;
+
 
     void Start(){
         rb = GetComponent<Rigidbody>();
         tr = GetComponent<Transform>(); // vitesse constante qu'importe orientation caméra
         //tr = cam.GetComponent<Transform>(); // ralentit, vitesse selon cosinus(caméra ^ sol)
+        PanelUI.SetActive(false);
     }
 
     void FixedUpdate(){
+        if(gameEnCours==true)
+        {
         float vert = Input.GetAxis("Vertical"), hori = Input.GetAxis("Horizontal");
 
         /*Vector3 movement = new Vector3(
@@ -32,5 +38,23 @@ public class MoveV2 : MonoBehaviour{
         // NPO : à cause de la gravité, déplacement selon X ou Z involontaire
         // --> nécessite une pente à forte friction statique, i.e Physical Material
         rb.MovePosition(transform.position + movement );
+        }
+
+        if(Input.GetKeyDown(KeyCode.I) && gameEnCours == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            PanelUI.SetActive(true);
+            gameEnCours = false;
+            Debug.Log("Inventaire ouvert");
+        }
+
+        if(Input.GetKeyDown(KeyCode.O) && gameEnCours == false)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            PanelUI.SetActive(false);
+            gameEnCours = true;
+            Debug.Log("Inventaire fermé");
+        }
+        
     }
 }
