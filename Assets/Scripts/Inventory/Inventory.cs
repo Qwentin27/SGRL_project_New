@@ -9,9 +9,6 @@ public class Inventory
     public event EventHandler OnItemListChanged;
     private List<Item> itemList;
 
-    public GameObject panelItemUsed;
-    public SpriteRenderer ItemSprite;
-
     public Inventory()
     {
         itemList = new List<Item>();
@@ -33,13 +30,7 @@ public void RemoveItem(Item item)
 }
 
 
-public void UseItem(Item item)
-{
-    panelItemUsed.SetActive(true);
-    ItemSprite.sprite = item.GetSprite();//Faire afficher le flyer en grand
-    //Supprimer l'item de l'inventaire
-    //Ajouter une condition d'utilisation selon les éngimes
-}
+
 
 public List<Item> GetItemList() {
     return itemList;

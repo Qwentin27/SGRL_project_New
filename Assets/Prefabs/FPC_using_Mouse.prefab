@@ -31,7 +31,6 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.69999987, z: -0, w: 0.714143}
   m_LocalPosition: {x: 0, y: 0.7221279, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1267316941091108957}
   m_RootOrder: 0
@@ -139,6 +138,7 @@ GameObject:
   - component: {fileID: 1267316941091108956}
   - component: {fileID: 1267316941091108959}
   - component: {fileID: 1512641049175049435}
+  - component: {fileID: 1334016697681275086}
   m_Layer: 0
   m_Name: FPC_using_Mouse
   m_TagString: Untagged
@@ -156,7 +156,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.70543873, z: 0, w: 0.70877093}
   m_LocalPosition: {x: 6.42, y: 3.41, z: 14.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1267316940902867657}
   m_Father: {fileID: 0}
@@ -206,3 +205,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   cam: {fileID: 1267316940902867661}
+--- !u!114 &1334016697681275086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267316941091108929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e731234afe41abc4b86cb3fe2a7f2bd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiInventory: {fileID: 0}
