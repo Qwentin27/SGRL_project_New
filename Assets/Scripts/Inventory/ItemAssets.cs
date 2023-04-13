@@ -15,4 +15,6 @@ public class ItemAssets : MonoBehaviour
   public Sprite FlyerSprite;
   public Sprite CartePostaleSprite;
 
+  [TextArea(3,10)]
+  public string[] sentences;
 }

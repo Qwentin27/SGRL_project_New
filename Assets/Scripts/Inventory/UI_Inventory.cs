@@ -45,6 +45,14 @@ public class UI_Inventory : MonoBehaviour
         itemSlotRectTransform.anchoredPosition = new Vector2 (x*itemSlotCellSize, -y*itemSlotCellSize);
         Image image = itemSlotRectTransform.Find("image").GetComponent<Image>();
         image.sprite = item.GetSprite();
+        if(item.itemType == Item.ItemType.Flyer)
+        {
+            itemSlotRectTransform.tag = "Flyer";
+        }
+        if(item.itemType == Item.ItemType.CartePostale)
+        {
+            itemSlotRectTransform.tag = "Carte Postale";
+        }
         x++;
         if (x>0){
             x=0;
