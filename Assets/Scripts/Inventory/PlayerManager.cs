@@ -52,6 +52,7 @@ public class PlayerManager : MonoBehaviour
             {
             inventory.AddItem(itemWorld2.GetItem());
             itemWorld2.DestroySelf();
+            panel_Interaction.SetActive(false);
             }
         }
     }
