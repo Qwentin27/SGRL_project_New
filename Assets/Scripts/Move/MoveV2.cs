@@ -9,6 +9,7 @@ public class MoveV2 : MonoBehaviour{
     [SerializeField] GameObject cam;
 
     public GameObject PanelUI;
+    public GameObject Panel_ItemUsed;
     public bool gameEnCours = true;
 
 
@@ -17,6 +18,7 @@ public class MoveV2 : MonoBehaviour{
         tr = GetComponent<Transform>(); // vitesse constante qu'importe orientation caméra
         //tr = cam.GetComponent<Transform>(); // ralentit, vitesse selon cosinus(caméra ^ sol)
         PanelUI.SetActive(false);
+        Panel_ItemUsed.SetActive(false);
     }
 
     void FixedUpdate(){
@@ -52,6 +54,7 @@ public class MoveV2 : MonoBehaviour{
         {
             Cursor.lockState = CursorLockMode.Locked;
             PanelUI.SetActive(false);
+            Panel_ItemUsed.SetActive(false);
             gameEnCours = true;
             Debug.Log("Inventaire fermé");
         }

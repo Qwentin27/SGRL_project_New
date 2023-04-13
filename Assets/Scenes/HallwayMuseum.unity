@@ -908,7 +908,6 @@ RectTransform:
   - {fileID: 964498853}
   - {fileID: 1441515331}
   - {fileID: 350647562}
-  - {fileID: 907510986}
   m_Father: {fileID: 341289276}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1584,16 +1583,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907510985}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 131}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 528240938}
-  m_RootOrder: 4
+  m_Father: {fileID: 964498853}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 843, y: 138}
+  m_AnchoredPosition: {x: 650.6001, y: 138}
   m_SizeDelta: {x: 451.65, y: 287}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907510987
@@ -1838,6 +1837,7 @@ RectTransform:
   m_Children:
   - {fileID: 802644159}
   - {fileID: 53663490}
+  - {fileID: 907510986}
   m_Father: {fileID: 528240938}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3509,5 +3509,9 @@ PrefabInstance:
       propertyPath: PanelUI
       value: 
       objectReference: {fileID: 528240936}
+    - target: {fileID: 1512641049175049435, guid: 953e8901dce8e4b43944f8b91714253c, type: 3}
+      propertyPath: Panel_ItemUsed
+      value: 
+      objectReference: {fileID: 964498852}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953e8901dce8e4b43944f8b91714253c, type: 3}
