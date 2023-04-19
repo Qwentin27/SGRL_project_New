@@ -111,7 +111,7 @@ MonoBehaviour:
   width: 874
   height: 620
   sprite: {fileID: 21300000, guid: 1e9d2cf7a0cfe8c44adb94a585e7ede1, type: 3}
-  panel_manager: {fileID: 0}
+  panel_manager: {fileID: 3346381226066782805, guid: 4389cfa0c44542c41880b5d951799266, type: 3}
 --- !u!1 &7817921339567883596
 GameObject:
   m_ObjectHideFlags: 0

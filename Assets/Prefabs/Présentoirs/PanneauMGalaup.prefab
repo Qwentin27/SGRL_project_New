@@ -224,4 +224,4 @@ MonoBehaviour:
   width: 874
   height: 620
   sprite: {fileID: 21300000, guid: cb292dc2d6481f24b947d0761b2298ff, type: 3}
-  panel_manager: {fileID: 0}
+  panel_manager: {fileID: 3346381226066782805, guid: 4389cfa0c44542c41880b5d951799266, type: 3}

@@ -31,7 +31,6 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.69999987, z: -0, w: 0.714143}
   m_LocalPosition: {x: 0, y: 0.7221279, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1267316941091108957}
   m_RootOrder: 0
@@ -156,7 +155,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.70543873, z: 0, w: 0.70877093}
   m_LocalPosition: {x: 6.42, y: 3.41, z: 14.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1267316940902867657}
   m_Father: {fileID: 0}
@@ -205,4 +203,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  cam: {fileID: 1267316940902867661}
+  cam: {fileID: 3607305262997891672, guid: 72a29120f7cc9b5419c072fa9f4ea6b1, type: 3}
