@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 7767940841619987789}
   - component: {fileID: 7767940841619987791}
   - component: {fileID: 7767940841619987790}
+  - component: {fileID: 4528974922015694714}
   m_Layer: 0
   m_Name: archeDroiteVestibule
   m_TagString: Untagged
@@ -162,6 +163,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4528974922015694714
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940841619987788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -689107843050501137, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940841620938034
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +269,7 @@ GameObject:
   - component: {fileID: 7767940841806867588}
   - component: {fileID: 7767940841806867590}
   - component: {fileID: 7767940841806867589}
+  - component: {fileID: 1337536899897343111}
   m_Layer: 0
   m_Name: MurFond
   m_TagString: Untagged
@@ -324,6 +340,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1337536899897343111
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940841806867595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3016796049816114054, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940841828371379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1087,7 @@ GameObject:
   - component: {fileID: 7767940842050562356}
   - component: {fileID: 7767940842050562358}
   - component: {fileID: 7767940842050562357}
+  - component: {fileID: 1010164022184525017}
   m_Layer: 0
   m_Name: MurEntree
   m_TagString: Untagged
@@ -1127,6 +1158,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1010164022184525017
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842050562363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5374381358694683807, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842112655342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1828,6 +1873,7 @@ GameObject:
   - component: {fileID: 7767940842370603507}
   - component: {fileID: 7767940842370603469}
   - component: {fileID: 7767940842370603468}
+  - component: {fileID: 975623640072185961}
   m_Layer: 0
   m_Name: MurGaucheVestibule
   m_TagString: Untagged
@@ -1898,6 +1944,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &975623640072185961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842370603506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6618295997996863105, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842385256510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2050,7 @@ GameObject:
   - component: {fileID: 7767940842437450694}
   - component: {fileID: 7767940842437450688}
   - component: {fileID: 7767940842437450695}
+  - component: {fileID: 1008851774122328956}
   m_Layer: 0
   m_Name: MurEntreeVestibule
   m_TagString: Untagged
@@ -2060,6 +2121,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1008851774122328956
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842437450693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6632771398309645781, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842444162101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,6 +2470,7 @@ GameObject:
   - component: {fileID: 7767940842518275374}
   - component: {fileID: 7767940842518275368}
   - component: {fileID: 7767940842518275375}
+  - component: {fileID: 2750417157864842270}
   m_Layer: 0
   m_Name: SolVestibule
   m_TagString: Untagged
@@ -2465,6 +2541,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2750417157864842270
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842518275373}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -281996752113578719, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842521335686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,6 +2566,7 @@ GameObject:
   - component: {fileID: 7767940842521335687}
   - component: {fileID: 7767940842521335681}
   - component: {fileID: 7767940842521335680}
+  - component: {fileID: 8461755207915762076}
   m_Layer: 0
   m_Name: MurGauche.001
   m_TagString: Untagged
@@ -2546,6 +2637,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8461755207915762076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842521335686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6734419674991810780, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842553493144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,6 +3109,7 @@ GameObject:
   - component: {fileID: 7767940842604084969}
   - component: {fileID: 7767940842604084971}
   - component: {fileID: 7767940842604084970}
+  - component: {fileID: 9196694276585567242}
   m_Layer: 0
   m_Name: archeGaucheVestibule
   m_TagString: Untagged
@@ -3074,6 +3180,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9196694276585567242
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842604084968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1020394561120903819, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842608376433
 GameObject:
   m_ObjectHideFlags: 0
@@ -4135,6 +4255,7 @@ GameObject:
   - component: {fileID: 7767940842903353591}
   - component: {fileID: 7767940842903353585}
   - component: {fileID: 7767940842903353584}
+  - component: {fileID: 3306524726375192731}
   m_Layer: 0
   m_Name: ArcheEntree.001
   m_TagString: Untagged
@@ -4205,6 +4326,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3306524726375192731
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940842903353590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7679608472499876740, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940842913509617
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,6 +5123,7 @@ GameObject:
   - component: {fileID: 7767940843176923330}
   - component: {fileID: 7767940843176923356}
   - component: {fileID: 7767940843176923331}
+  - component: {fileID: 8198805680849886839}
   m_Layer: 0
   m_Name: MurDroitVestibule
   m_TagString: Untagged
@@ -5058,6 +5194,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8198805680849886839
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940843176923329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2058701833296273508, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940843200952259
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,6 +5396,7 @@ GameObject:
   - component: {fileID: 7767940843288131732}
   - component: {fileID: 7767940843288131734}
   - component: {fileID: 7767940843288131733}
+  - component: {fileID: 992637299724422132}
   m_Layer: 0
   m_Name: ArcheEntree.002
   m_TagString: Untagged
@@ -5316,6 +5467,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &992637299724422132
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940843288131739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 259341040576615200, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940843377308656
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,6 +6202,7 @@ GameObject:
   - component: {fileID: 7767940843547683869}
   - component: {fileID: 7767940843547683871}
   - component: {fileID: 7767940843547683870}
+  - component: {fileID: 5656532388585213184}
   m_Layer: 0
   m_Name: MurDroit.001
   m_TagString: Untagged
@@ -6107,6 +6273,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5656532388585213184
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940843547683868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1195075722464767280, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940843548097877
 GameObject:
   m_ObjectHideFlags: 0
@@ -6152,6 +6332,7 @@ GameObject:
   - component: {fileID: 7767940843549566723}
   - component: {fileID: 7767940843549566749}
   - component: {fileID: 7767940843549566748}
+  - component: {fileID: 3531921526173071015}
   m_Layer: 0
   m_Name: MurFondVestibule
   m_TagString: Untagged
@@ -6222,6 +6403,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3531921526173071015
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767940843549566722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5367709377570035073, guid: b2a36043d070b1e4ab20ee991825ceab, type: 3}
 --- !u!1 &7767940843574376551
 GameObject:
   m_ObjectHideFlags: 0
